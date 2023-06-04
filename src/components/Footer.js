@@ -1,5 +1,5 @@
 import React from "react";
-import { logo_sanja } from "../assets";
+import { logo } from "../assets";
 import { ImGithub } from "react-icons/im";
 import {
   FaFacebookF,
@@ -16,7 +16,7 @@ const Footer = () => {
     <div className=" bg-black text-[#949494] py-20 font-titleFont">
       <div className="max-w-screen-xl mx-auto grid grid-cols-4">
         <div className=" flex flex-col  gap-7">
-          <img className="w-16 " src={logo_sanja} alt="logoImg"></img>
+          <img className="w-28 " src={logo} alt="logoImg"></img>
           <div className="flex gap-5 text-lg text-gray-400">
             <FaFacebookF className="hover:text-white duration-300 cursor-pointer"></FaFacebookF>
             <FaInstagram className="hover:text-white duration-300 cursor-pointer"></FaInstagram>

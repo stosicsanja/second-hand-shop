@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { logo_sanja, shopping_bag, user_logo } from "../assets";
+import { logo, shopping_bag, user_logo } from "../assets";
 
 const Header = () => {
   return (
@@ -8,7 +8,7 @@ const Header = () => {
       <div className="max-w-screen-xl h-full mx-auto flex items-center justify-between">
         <Link to="/">
           <div>
-            <img className="w-12" src={logo_sanja} alt="logo"></img>
+            <img className="w-28" src={logo} alt="logo"></img>
           </div>
         </Link>
 
